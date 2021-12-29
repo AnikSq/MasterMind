@@ -70,7 +70,7 @@ def starting
   colors = gets.chomp
   colors.downcase!
   index_value = colors.split(' ')
-  until index_value.length > 1 || colors == "yes"
+  until index_value.length > 1 || colors == 'yes'
     puts "You can't fool the system , I already thought about it"
     puts 'Enter more than 1 color'
     colors = gets.chomp
